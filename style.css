@@ -1,0 +1,386 @@
+*{
+    padding: auto;
+    margin: 0;
+
+}
+html{
+    width: 100%;
+    background: url(cafe2.jpg);
+     
+}
+body{
+    height: 1300px;
+    width:  100%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+header{
+    height: 400px;
+    width: 100%;
+    text-align:center;
+    background: url(logo.gif);
+    background-size: 470px;
+    color:  rgb(65, 42, 9);
+
+}
+.menu{
+    position: absolute;
+    right: 50px;
+}
+
+.menu a{
+    font-weight: 600;
+    margin-left: 30px;
+    transition: color 1s;
+    float: left;
+    color:  rgb(65, 42, 9);
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 25px; 
+    line-height: 25px;
+    border-radius: 4px;
+    background-color: rgba(124, 121, 121, 0.342) ;
+}
+.menu a:hover {
+    background-color: rgba(185, 185, 184, 0.548);
+    color: rgba(10, 10, 10, 0.774);
+}
+.btn {
+    display:none;
+    position:absolute;
+    left: 20px;
+}
+.btn:hover > span {
+    background-color: #be794b;
+}
+.btn span {
+    display: block;
+    margin: 6px;
+    width: 40px;
+    height: 3px;
+    background: #333;
+}
+
+h1{
+    font-size: 50px; 
+    background-color: rgba(202, 195, 195, 0.123);
+}
+h2{
+    font-size: 30px; 
+    text-align: center;
+    color:  rgb(65, 42, 9);
+
+}
+h3{
+    font-family: Hind;
+    background-color: rgba(145, 137, 137, 0.219);
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+
+}
+article{
+    height: 500px;
+    width: 100%;
+}
+#test{
+    height: 100px;
+    width: 100%;
+
+}
+#qui{
+    height: 100px;
+    width :100%;
+    background:gray;
+
+}
+#ga{
+    height: 200px;
+    width: 100%;
+}
+#con{
+    height: 100px;
+    width: 100%;
+}
+.contenedor0{
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(20px auto);
+    padding: 20px;
+     
+}
+.contenedor0 h1{
+    color:  rgb(65, 42, 9);
+}
+.contenedor0 h3{
+    color:  rgba(245, 242, 240, 0.877);
+    background-color: rgba(95, 41, 19, 0.425);
+}
+.titulo h1{
+    color: rgba(65, 45, 2, 0.863);
+    background-color: rgba(211, 177, 104, 0.575);
+    padding: 20px;
+    margin: 20px;
+}
+.contenedor0 div{
+    background-color: rgba(211, 174, 119, 0.932);
+    color: rgba(22, 22, 21, 0.904);
+    padding: 2em;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(20px auto);
+    padding: 20px;
+     
+}
+.contenedor h2{
+    color: rgb(94, 66, 25);
+}
+.contenedor h3{
+    color: white;
+    background-color:  rgba(95, 41, 19, 0.425);
+}
+.contenedor div{
+    background-color: rgba(194, 137, 91, 0.733);
+    color: rgba(22, 22, 21, 0.904);
+    padding: 2em;
+}
+.titulo2 h1{
+    color: rgba(65, 45, 2, 0.863);
+    background-color: rgba(211, 177, 104, 0.575);
+    padding: 20px;
+    margin: 20px;
+}
+ 
+.contenedor3{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(20px auto);
+    padding: 20px;   
+}
+.contenedor3 h2{
+    color: rgb(94, 66, 25);
+}
+.contenedor3 h3{
+    color: white;
+    background-color:  rgba(95, 41, 19, 0.425);
+}
+.contenedor3 div{
+    background-color:  rgba(211, 174, 119, 0.932);
+    color: rgb(15, 15, 15);   
+    padding: 2em;
+}
+.titulo3 h1{
+    color: rgba(65, 45, 2, 0.863);
+    background-color: rgba(211, 177, 104, 0.575);
+    padding: 20px;
+    margin: 20px;
+}
+ 
+.contenedor4{
+    display:grid;
+    grid-template-columns:repeat(1,3fr) ;
+    grid-gap: 1em;
+    grid-template-rows: minmax(20px auto);
+    padding: 40px;
+    margin: 40px;
+}
+.contenedor4 div{
+    background-color: rgba(241, 237, 237, 0.493);
+    color: rgba(12, 12, 12, 0.918);
+    padding: 4em;
+}
+.contenedor5{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(20px auto);
+    padding: 20px;
+     
+}
+.contenedor5 h2{
+    color: rgb(94, 66, 25);
+}
+.contenedor5 h3{
+    color: white;
+    background-color:  rgba(95, 41, 19, 0.425);
+}
+.contenedor5 div{
+    background-color:  rgba(179, 133, 97, 0.884);
+    color: rgba(22, 22, 21, 0.904);
+    padding: 2em;
+    text-align: left;
+}
+.contenedor5 a{
+    float: left;
+    background-color: rgba(36, 25, 2, 0.39);
+    color:rgb(253, 252, 249);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+.contenedor5 a:hover{
+    background-color: rgba(102, 101, 101, 0.849);
+    color: rgba(241, 239, 239, 0.89);
+
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 700px) {
+        
+        .responsive {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        }
+        header a{
+        float: center;
+        color:  rgb(65, 42, 9);
+        text-align: center;
+        padding: 30px;
+        text-decoration: none;
+        font-size: 25px; 
+        line-height: 25px;
+        border-radius: 4px;
+        background-color: rgba(124, 121, 121, 0.342) ;
+        }
+        header a:hover {
+        background-color: rgba(185, 185, 184, 0.548);
+        color: rgba(10, 10, 10, 0.774);
+        }
+        .contenedor3{
+            display: grid;
+            grid-template-columns: repeat(3,3fr);
+            grid-gap: 1em;
+            grid-template-rows: minmax(20px auto);
+            padding: 20px;   
+        }
+  }
+  @media only screen and (max-width: 580px) {
+        .contenedor0{
+            display: grid;
+            grid-template-columns: repeat(1,3fr);
+            grid-gap: 1em;
+            grid-template-rows: minmax(20px auto);
+            padding: 20px;
+             
+        }
+        .contenedor{
+            display: grid;
+            grid-template-columns: repeat(2,3fr);
+            grid-gap: 1em;
+            grid-template-rows: minmax(20px auto);
+            padding: 20px;
+             
+        }
+        .contenedor3{
+            display: grid;
+            grid-template-columns: repeat(2,3fr);
+            grid-gap: 1em;
+            grid-template-rows: minmax(20px auto);
+            padding: 20px;   
+        }
+        .contenedor5{
+            display: grid;
+            grid-template-columns: repeat(2,3fr);
+            grid-gap: 1em;
+            grid-template-rows: minmax(20px auto);
+            padding: 20px;
+             
+        }
+        .menu {
+            
+            width: 30%;
+            height: 140px;
+            right: 0;
+            left: 20px;
+            top: 250px;
+            background: #dbd9d315;
+            overflow: hidden;
+            max-height: 0;
+        }
+        .menu a{
+            display: block;
+            text-align: center;
+            padding: 10px;
+            margin: 2px;
+        }
+        .btn {
+            display:block;
+            cursor:pointer;
+        }
+        .show {
+            max-height: 580px;
+        }
+  }
+  @media only screen and (max-width: 500px) {
+    .contenedor0{
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+        grid-gap: 1em;
+        grid-template-rows: minmax(20px auto);
+        padding: 20px;
+         
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+        grid-gap: 1em;
+        grid-template-rows: minmax(20px auto);
+        padding: 20px;
+         
+    }
+    .contenedor3{
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+        grid-gap: 1em;
+        grid-template-rows: minmax(20px auto);
+        padding: 20px;   
+    }
+    .contenedor5{
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+        grid-gap: 1em;
+        grid-template-rows: minmax(20px auto);
+        padding: 20px;
+         
+    }
+    .menu {
+        
+        width: 30%;
+        height: 140px;
+        right: 0;
+        left: 20px;
+        top: 250px;
+        background: #dbd9d315;
+        overflow: hidden;
+        max-height: 0;
+    }
+    .menu a{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin: 2px;
+    }
+    .btn {
+        display:block;
+        cursor:pointer;
+        width: 10%;
+    }
+    .show {
+        max-height: 500px;
+    }
+}
